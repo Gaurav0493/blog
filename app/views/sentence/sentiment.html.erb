@@ -1,0 +1,7 @@
+
+<h1>Overall Sentiment score of sentence: <%= @Overall_score %> </h1>
+<br>
+<% @sentiment.each do |key,value| %>
+   Sentiment score of sentence: <%= key %>
+   is: <%= value %> <br>
+<% end %>

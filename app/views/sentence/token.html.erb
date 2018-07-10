@@ -1,0 +1,7 @@
+
+<h1>Overall tokens in sentence are: <%= @AllTokens %> </h1>
+<br>
+<% @token.each do |key,value| %>
+   Token for <%= key %>
+   are: <%= value %> <br>
+<% end %>

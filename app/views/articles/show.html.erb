@@ -1,0 +1,11 @@
+<p>
+  <strong>Text:</strong>
+  <%= @article.text %>
+</p>
+<br>
+
+<%= link_to 'Back', articles_path %>
+<%= link_to 'Sentiment', sentence_sentiment_path(@article) %>
+<%= link_to 'Entity', sentence_entity_path(@article) %>
+<%= link_to 'Token', sentence_token_path(@article) %>
+<%= link_to 'Category', sentence_category_path(@article) %>
