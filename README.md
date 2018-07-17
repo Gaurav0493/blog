@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # README
 
 This README would normally document whatever steps are necessary to get the
@@ -25,3 +26,7 @@ Things you may want to cover:
 # blog
 # blog
 # blog
+=======
+# blog
+Blog application integrated with GCNL 
+>>>>>>> 32f794602ddb34299e28ca669111f72e86eb884c
